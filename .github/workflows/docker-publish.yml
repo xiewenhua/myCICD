@@ -16,7 +16,7 @@ jobs:
         name: Build & push Docker image
         with:
           image: didatong/mycicd
-          tags: v1, latest
+          tags: v2
           registry: docker.io
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
