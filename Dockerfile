@@ -3,5 +3,5 @@ RUN python --version
 RUN pwd
 ADD . /code
 WORKDIR /code
-RUN python /code/hello.py
+# RUN python /code/hello.py
 CMD [ "python","/code/hello.py" ]
