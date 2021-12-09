@@ -1,4 +1,6 @@
-FROM python:3.8.2
+FROM alpine
+RUN pwd
 ADD . /code
 WORKDIR /code
+RUN python /code/hello.py
 CMD [ "python","/code/hello.py" ]
