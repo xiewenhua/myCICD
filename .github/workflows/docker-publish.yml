@@ -29,4 +29,4 @@ jobs:
       - run: pwd
       # - run: python hello.py
         name: 查看 Github secrets
-      - run: echo ${{TestSecretValue}}
+      - run: echo ${{ secrets.TestSecretValue }}
